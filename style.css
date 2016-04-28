@@ -1,0 +1,112 @@
+body {
+	background-image: url(back.jpg);
+    background-size: 100% 100%;
+}
+h3 {
+	text-align: left; /*Having the headings towards the left*/ 
+	font-family: 'Ubuntu', sans-serif; /*Font Damily*/ /* Where can I learn more about these ? */
+
+	font-size: 20px;
+	font-weight: normal;
+
+	color: gray;
+}
+.holder {
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 10px;
+	border-radius: 10px;
+
+	width: 50%;
+	margin:0 auto; /* why does it work ? */
+	
+	background-color: rgba(255,255,255,0.4);
+}
+.gen_in {
+	font-family: 'Poiret One', cursive;
+	padding: 8px 20px;
+	border-radius: 5px;
+
+	margin: 5px 30px;
+
+	background-color: rgba(255,255,255,0.65);
+}
+.gen_in p {
+	display: inline;
+	font-size: 20px;
+	font-weight: bold;
+
+	margin-right: 20px;
+
+	color: gray;
+}
+.gen_in input {
+	font-family: 'Ubuntu', sans-serif;
+	outline: none;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 18px;
+
+	height: 40px;
+	width: 60%;
+
+	border-color: rgba(255,255,255, 0.2);
+	color: black;
+
+    -webkit-transition: border-color 0.5s;
+    -moz-transition: border-color 0.5s;
+    -o-transition: border-color 0.5s;
+    transition: border-color 0.5s;
+}
+
+.gen_in input:focus {
+	border-color: rgba(0,0,255, 0.3);
+}
+
+.gen_in textarea{
+	font-family: 'Ubuntu', sans-serif;
+	outline: none;
+	border-radius: 20px;
+	border-width: 2px;
+	font-size: 18px;
+
+	width: 80%;
+	height: 200px;
+
+	border-color: white;
+
+	-webkit-transition: border-color 0.3s;
+    -moz-transition: border-color 0.3s;
+    -o-transition: border-color 0.3s;
+    transition: border-color 0.3s;
+}
+.gen_in textarea:focus {
+	border-color:rgba(0,0,255, 0.3);
+}
+.gen_pay {
+	font-family: 'Poiret One', cursive;
+	padding: 8px 20px;
+	border-radius: 5px;
+
+	margin: 5px 30px;
+
+	background-color: rgba(255,255,255,0.65);
+}
+.gen_pay p{
+	display: inline;
+	font-size: 20px;
+	font-weight: bold;
+	
+	margin-right: 20px;
+
+	color: gray;
+}
+#cards input{
+	vertical-align: middle; /* DONT UNDERSTAND THIS PART ? */
+	margin:0px 20px;
+}
+#cards img {
+	vertical-align: middle;
+
+	height: 50px;
+}
